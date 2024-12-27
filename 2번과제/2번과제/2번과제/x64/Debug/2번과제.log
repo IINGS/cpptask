@@ -1,0 +1,32 @@
+﻿  main.cpp
+C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\zoo.h(16,24): error C2228: '.size' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\zoo.h(16,24):
+      'Animal *[10]' 형식입니다.
+  
+C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\main.cpp(14,20): error C2259: 'Dog': 추상 클래스를 인스턴스화할 수 없습니다.
+      C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\animals.h(11,7):
+      'Dog' 선언을 참조하십시오.
+      C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\main.cpp(14,20):
+      다음 멤버가 원인입니다.
+      C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\main.cpp(14,20):
+      'void Animal::makeSound(void) const': abstract입니다.
+      C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\animal.h(14,15):
+      'Animal::makeSound' 선언을 참조하십시오.
+  
+C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\main.cpp(14,23): error C2259: 'Dog': 추상 클래스를 인스턴스화할 수 없습니다.
+      C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\animals.h(11,7):
+      'Dog' 선언을 참조하십시오.
+      C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\main.cpp(14,23):
+      다음 멤버가 원인입니다.
+      C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\main.cpp(14,23):
+      'void Animal::makeSound(void) const': abstract입니다.
+      C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\animal.h(14,15):
+      'Animal::makeSound' 선언을 참조하십시오.
+  
+C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\main.cpp(14,23): error C2248: 'Dog::Dog': private 멤버('Dog' 클래스에서 선언)에 액세스할 수 없습니다.
+      C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\animals.h(13,2):
+      'Dog::Dog' 선언을 참조하십시오.
+      C:\Users\wjdgn\source\repos\과제용\2번과제\2번과제\animals.h(11,7):
+      'Dog' 선언을 참조하십시오.
+  
